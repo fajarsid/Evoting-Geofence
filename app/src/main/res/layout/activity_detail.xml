@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#757A80"
+    tools:context=".detail.DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/fotoDetail"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_margin="@dimen/margin" />
+
+        <TextView
+            android:id="@+id/idFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/fotoDetail"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"/>
+
+
+        <TextView
+            android:id="@+id/d_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/fotoDetail"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/d_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/fotoDetail"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/d_prodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/fotoDetail"/>
+
+        <TextView
+            android:id="@+id/d_angkatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/fotoDetail" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Visi :"
+            android:layout_margin="@dimen/margin"/>
+
+        <TextView
+            android:id="@+id/d_visi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_margin="@dimen/margin"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Misi : "
+            android:layout_margin="@dimen/margin"/>
+
+        <TextView
+            android:id="@+id/d_misi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView9"
+            android:layout_margin="@dimen/margin"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:text="Motto :" />
+
+    <TextView
+        android:id="@+id/d_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin" />
+
+
+    <ImageView
+        android:id="@+id/btn_detail"
+        android:layout_marginTop="220dp"
+        android:layout_width="50dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        app:srcCompat="@mipmap/login" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/arbutus</item>
+        <item>@font/bad_script</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/keania_one</item>
+        <item>@font/monoton</item>
+    </array>
+</resources>
